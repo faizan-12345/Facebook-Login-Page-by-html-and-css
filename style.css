@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color: #f0f2f5;
+    height: calc(100vh - 235px);
+    display: flex;
+    align-items: center;
+}
+footer{
+    /* border: 2px solid black; */
+    background-color:white;
+    width: 100vw;
+    height: 235px;
+}
+body{
+    overflow-x: hidden;
+}
+#heading{
+    font-size: 24px; 
+     line-height: 28px; 
+     color:#1C1E21;
+     width: auto;
+     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+     font-weight: normal;
+}
+.heading{
+    /* border: 2px solid black; */
+    width: 390px;
+    margin-left: 85px;
+    margin-bottom: 189px;
+}       
+#logo{
+    height: 106px;
+    position: relative;
+    right: 30px;
+    top: 12px;
+}
+.card{
+    height: 375px;
+    width: 415px;
+    /* border: 2px solid white;  */
+    border-radius: 8px;
+    background-color: white;
+    margin-bottom: 83px;
+    margin-left: 40px;
+    text-align: center;
+    box-shadow: -5px 8px 10px #a5a3a3;
+}
+/* .card{
+    text-align: center;
+    box-shadow: -5px 8px 10px #a5a3a3;
+} */
+.input{
+    border: 1px solid #dddfe2;
+    margin-top: 16px;
+    width: 351px;
+    padding: 12px;
+    border-radius: 5px;
+}
+#input-1{
+    padding: 17px 16px;
+}
+#input-2{
+    padding: 17px 16px;
+}
+.btn-1{
+    margin-top: 27px;
+}
+.btn-1 button{
+    width: 387px;
+    height: 49px;
+    background: #1877f2;
+    color: white;
+    font-size: 23px;
+    font-family: inherit;
+    border: 1px;
+    border-radius: 7px;
+}
+#link{
+    color:#1877f4;
+    text-decoration: none;
+    position: relative;
+    top: 25px;
+}
+#break-y{
+    position: relative;
+    top: 56px;
+    color: #dadde1;
+    width: 372px;
+    left: 19px;
+}
+.last-section{
+    margin-top: 77px;
+}
+.last-section button{
+    height: 43px;
+    width: 193px;
+    background: #42b72a;
+    color: white;
+    border: 1px #42b72a;
+    border-radius: 7px;
+}
